@@ -35,3 +35,11 @@ button {
   margin-top: 20px;
   line-height: 1.8;
 }
+/* 情侣照片样式 */
+.couple-img {
+  width: 300px; /* 照片宽度300px，不用改 */
+  height: auto; /* 保持照片不变形 */
+  display: block; /* 自动居中 */
+  margin: 15px auto; /* 上下留空隙 */
+  border-radius: 8px; /* 圆角更美观 */
+}
