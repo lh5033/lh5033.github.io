@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <title>情侣学习打卡</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>❤️ 情侣学习打卡</h1>
+    <div class="form">
+      <div class="input-item">
+        <label>你的昵称：</label>
+        <input type="text" id="nickname" placeholder="输入昵称">
+      </div>
+      <div class="input-item">
+        <label>学习内容：</label>
+        <textarea id="content" placeholder="今天学了什么"></textarea>
+      </div>
+      <button id="submitBtn">提交打卡</button>
+    </div>
+    <h2>📝 所有打卡记录</h2>
+    <div id="recordList"></div>
+  </div>
+  <!-- 引入LeanCloud SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/leancloud-storage@4.15.0/dist/av-min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
