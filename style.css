@@ -1,6 +1,6 @@
 body {
   font-family: 微软雅黑;
-  background-image: url("1.jpg"); /* 关键：图片地址 */
+  background-image: url("2.jpg"); /* 关键：图片地址 */
   background-size: cover; /* 让图片铺满屏幕，不拉伸变形 */
   background-repeat: no-repeat; /* 防止图片重复显示 */
   background-attachment: fixed; /* 滚动页面时，背景图固定不动 */
@@ -39,4 +39,3 @@ button {
   margin-top: 20px;
   line-height: 1.8;
 }
-
